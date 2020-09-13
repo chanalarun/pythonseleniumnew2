@@ -36,7 +36,7 @@ class TestEcom:
             purchase.Check_Box()
             purchase.Purchase_button()
             purchase.Succesfull_meassage()
-            assert purchase.Succesfull_meassage()=="abc"
+
 
         except:
             print("error occured")
